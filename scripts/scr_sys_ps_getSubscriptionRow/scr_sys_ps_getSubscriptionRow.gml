@@ -4,8 +4,9 @@
 // EXPECTS:
 //		argument0 = topic 
 //		argument1 = subscriber type
-//		argument2 = event / function
-//		argument3 = instanceID ( case subscriber type = instance
+//		argument2 = event type
+//		argument3 = event num (only for user events)
+//		argument4 = instanceID ( case subscriber type = instance
 //
 // RETURNS: 
 //		number - row number containing subscription (event + script )
@@ -15,8 +16,9 @@
 
 var topic		= argument0
 var subscriber	= argument1
-var event		= argument2
-var instanceId	= argument3
+var event_def	= argument2
+var event_num	= argument3
+var instanceId	= argument4
 
 
 
@@ -25,10 +27,11 @@ for (var row = 0; row < ds_grid_height(global.pubsub_grid); row++) {
 	
 	curr_topic		= ds_grid_get(global.pubsub_grid, pubsub_grid_map.topic, row)
 	curr_subscriber	= ds_grid_get(global.pubsub_grid, pubsub_grid_map.subscriber, row)
-	curr_event		= ds_grid_get(global.pubsub_grid, pubsub_grid_map.event, row)
+	curr_event_def	= ds_grid_get(global.pubsub_grid, pubsub_grid_map.event_def, row)
+	curr_event_num	= ds_grid_get(global.pubsub_grid, pubsub_grid_map.event_num, row)
 	curr_instanceId	= ds_grid_get(global.pubsub_grid, pubsub_grid_map.instanceId, row)
 	
-	if ( curr_topic == topic ) and ( curr_subscriber == subscriber ) and ( curr_event == event ) and ( curr_instanceId == instanceId )  {
+	if ( curr_topic == topic ) and ( curr_subscriber == subscriber ) and ( curr_event_def == event_def) and ( curr_event_num == event_num ) and ( curr_instanceId == instanceId )  {
 		return row
 	} 
 }

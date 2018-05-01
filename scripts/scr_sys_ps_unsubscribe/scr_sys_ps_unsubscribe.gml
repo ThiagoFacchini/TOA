@@ -4,8 +4,9 @@
 // EXPECTS:
 //		argument0 = topic 
 //		argument1 = subscriber type
-//		argument2 = event / function
-//		argument3 = instanceID ( case subscriber type = instance
+//		argument2 = event type
+//		argument3 = event num (only for user events)
+//		argument4 = instanceID ( case subscriber type = instance
 //
 // RETURNS: 
 //		boolean
@@ -15,10 +16,11 @@
 
 var topic		= argument0
 var subscriber	= argument1
-var event		= argument2
-var instanceId	= argument3
+var event_def	= argument2
+var event_num	= argument3
+var instanceId	= argument4
 
-var subscriptionRow = scr_sys_ps_getSubscriptionRow(topic, subscriber, event, instanceId)
+var subscriptionRow = scr_sys_ps_getSubscriptionRow(topic, subscriber, event_def, event_num, instanceId)
 
 if (subscriptionRow != "false") {
 	

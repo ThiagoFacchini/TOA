@@ -7,7 +7,7 @@
         "c67a86ae-1752-4738-bf98-755367064054"
     ],
     "filterType": "GMSprite",
-    "folderName": "terrain",
+    "folderName": "Terrain",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

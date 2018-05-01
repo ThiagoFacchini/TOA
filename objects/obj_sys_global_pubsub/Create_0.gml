@@ -6,7 +6,7 @@
 // Col3 = Event to run
 // Col4 = Instance Id ( case subscription type = instance )
 
-global.pubsub_grid_cols = 4
+global.pubsub_grid_cols = 5
 
 
 global.pubsub_grid = ds_grid_create(global.pubsub_grid_cols, 1)
@@ -16,11 +16,21 @@ global.pubsub_grid = ds_grid_create(global.pubsub_grid_cols, 1)
 ds_grid_set(global.pubsub_grid, 0, 0, "99999")
 ds_grid_set(global.pubsub_grid, 1, 0, "99999")
 
+enum pubsub_topics {
+	minute_change,
+	hour_change,
+	day_change,
+	month_change,
+	year_change,
+	season_change
+}
+
 
 enum pubsub_grid_map {
 	topic,
 	subscriber,
-	event,
+	event_def,
+	event_num,
 	instanceId
 }
 

@@ -4,8 +4,9 @@
 // EXPECTS:
 //		argument0 = topic 
 //		argument1 = subscriber type
-//		argument2 = event / function
-//		argument3 = instanceID ( case subscriber type = instance
+//		argument2 = event type
+//		argument3 = event num (only for user events)
+//		argument4 = instanceID ( case subscriber type = instance
 //
 // RETURNS: 
 //		boolean
@@ -15,11 +16,12 @@
 
 var topic		= argument0
 var subscriber	= argument1
-var event		= argument2
-var instanceId	= argument3
+var event_def	= argument2
+var event_num	= argument3
+var instanceId	= argument4
 
 
-var isSubscribed = scr_sys_ps_getSubscriptionRow(topic, subscriber, event, instanceId)
+var isSubscribed = scr_sys_ps_getSubscriptionRow(topic, subscriber, event_def, event_num, instanceId)
 
 
 if (isSubscribed == "false") {
@@ -31,10 +33,11 @@ if (isSubscribed == "false") {
 	
 	ds_grid_set(global.pubsub_grid, pubsub_grid_map.topic, gridRows, topic)
 	ds_grid_set(global.pubsub_grid, pubsub_grid_map.subscriber, gridRows, subscriber)
-	ds_grid_set(global.pubsub_grid, pubsub_grid_map.event, gridRows, event)
+	ds_grid_set(global.pubsub_grid, pubsub_grid_map.event_def, gridRows, event_def)
+	ds_grid_set(global.pubsub_grid, pubsub_grid_map.event_num, gridRows, event_num)
 	ds_grid_set(global.pubsub_grid, pubsub_grid_map.instanceId, gridRows, instanceId)
 	
-	show_debug_message("Subscribed: " + string(topic) + " - " + string(subscriber) + " - " + string(event) + " - " + string(instanceId))
+	show_debug_message("Subscribed: " + string(topic) + " - " + string(subscriber) + " - " + string(event_def) + " - " + string(event_num) + " - " + string(instanceId))
 
 	return true
 	
