@@ -9,34 +9,54 @@ if (accumulated_delta_time >= global.ticks_ms) {
 	
 	var curr_dateTime = scr_sys_ct_tm_getDateTime()
 	
-	// 1st - Checking for minute change event
+	// Checking for minute change event
 	if (old_dateTime[0] != curr_dateTime[0]) {
 		scr_sys_ps_publish(pubsub_topics.minute_change, curr_dateTime)
 	}
 	
-	// 2nd - Checking for hour change event
+	// Checking for hour change event
 	if (old_dateTime[1] != curr_dateTime[1]) {
 		scr_sys_ps_publish(pubsub_topics.hour_change, curr_dateTime)
 	}
 	
-	// 3rd - Checking for day change event
+	// Checking for day change event
 	if (old_dateTime[2] != curr_dateTime[2]) {
 		scr_sys_ps_publish(pubsub_topics.day_change, curr_dateTime)
 	}
 	
-	// 4th - Checking for month change event
+	// Checking for month change event
 	if (old_dateTime[3] != curr_dateTime[3]) {
 		scr_sys_ps_publish(pubsub_topics.month_change, curr_dateTime)
 	}
 	
-	// 5th - Checking for year change event
+	// Checking for year change event
 	if (old_dateTime[4] != curr_dateTime[4]) {
 		scr_sys_ps_publish(pubsub_topics.year_change, curr_dateTime)
 	}
 	
-	// 6th - Checking for season change event
+	// Checking for season change event
 	if (old_dateTime[5] != curr_dateTime[5]) {
 		scr_sys_ps_publish(pubsub_topics.season_change, curr_dateTime)
+	}
+	
+	// Checking for sunset start event
+	if (curr_dateTime[1] == global.sunset_time) {
+		scr_sys_ps_publish(pubsub_topics.sunset_started, curr_dateTime)
+	}
+	
+	// Checking for sunset finish event
+	if (curr_dateTime[1] == (global.sunset_time + global.sunset_length)) {
+		scr_sys_ps_publish(pubsub_topics.sunset_finished, curr_dateTime)
+	}
+	
+	// Checking for sunrise start event
+	if (curr_dateTime[1] == global.sunrise_time) {
+		scr_sys_ps_publish(pubsub_topics.sunrise_started, curr_dateTime)
+	}
+	
+	// Checking for sunrise finish event
+	if (curr_dateTime[1] == (global.sunrise_time + global.sunrise_length)) {
+		scr_sys_ps_publish(pubsub_topics.sunrise_finished, curr_dateTime)
 	}
 	
 

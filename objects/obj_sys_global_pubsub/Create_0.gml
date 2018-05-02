@@ -22,7 +22,11 @@ enum pubsub_topics {
 	day_change,
 	month_change,
 	year_change,
-	season_change
+	season_change,
+	sunset_started,
+	sunset_finished,
+	sunrise_started,
+	sunrise_finished
 }
 
 

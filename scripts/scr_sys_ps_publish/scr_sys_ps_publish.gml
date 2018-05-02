@@ -33,12 +33,8 @@ for (var row = 0; row < array_length_1d(response); row++) {
 
 	// It's an event on a particular instance, topicArgs won't be passed
 	} else {
-		show_debug_message("should run an event on a particular instance id")
-		show_debug_message("topic -> " + string(topic) + " subscriber type -> " + string(subscriber) + " event type -> " + string(event_def) + " event num -> " + string(event_num) + " instanceId -> " + string(instanceId) )
-
 		with(instanceId) {
 			event_perform(event_def, event_num)
 		}
-
 	}
 }

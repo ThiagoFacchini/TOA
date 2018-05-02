@@ -248,6 +248,25 @@
             }
         },
         {
+            "Key": "1bfbffec-8a0f-4652-87df-f9932e194648",
+            "Value": {
+                "id": "9a9821cf-4d8d-4a7d-b846-9b022625fbda",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/1bfbffec-8a0f-4652-87df-f9932e194648.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1f10c7eb-b10e-4881-9683-3506e2fba853",
             "Value": {
                 "id": "a2bf7e40-9f51-4d75-8148-a3da78743d36",
@@ -419,6 +438,25 @@
             }
         },
         {
+            "Key": "41f0b623-341b-44ab-b497-36fb897af660",
+            "Value": {
+                "id": "54295582-2be5-4028-acf8-792077e7fa1c",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_npcs_bugs_firefly_green\/obj_npcs_bugs_firefly_green.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4b702466-9029-4636-a659-10f53c63d653",
             "Value": {
                 "id": "ff96ec65-be44-487f-a4d3-87b64eccb7b3",
@@ -473,6 +511,25 @@
                 ],
                 "resourcePath": "datafiles_yy\/Internationalization\/lang_portugues.ini.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "57174ba6-a4b7-4aff-b320-a62014f1900b",
+            "Value": {
+                "id": "7d20a8c1-f4fd-4fe0-bfa6-afe538f77e20",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_npcs_bugs_firefly_green_light\/obj_npcs_bugs_firefly_green_light.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -585,7 +642,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_spawners_beings_firefly\/obj_spawners_beings_firefly.yy",
+                "resourcePath": "objects\/obj_spawners_beings_bugs_firefly\/obj_spawners_beings_bugs_firefly.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -663,6 +720,25 @@
                 ],
                 "resourcePath": "scripts\/scr_sys_dt_date_format2\/scr_sys_dt_date_format2.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6eb77a3f-4c62-456a-95f9-2fecb58dbd6e",
+            "Value": {
+                "id": "15bfd55a-0dcb-417b-9c68-908422890868",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/6eb77a3f-4c62-456a-95f9-2fecb58dbd6e.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -929,6 +1005,25 @@
                 ],
                 "resourcePath": "sprites\/spr_sys_global\/spr_sys_global.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "97848001-1b8a-4237-be0c-df1321d35aee",
+            "Value": {
+                "id": "6fba4f7e-09b7-425c-b39e-ade2c15d4a79",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "views\/97848001-1b8a-4237-be0c-df1321d35aee.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1594,6 +1689,25 @@
                 ],
                 "resourcePath": "scripts\/scr_sys_ct_dnc_begin\/scr_sys_ct_dnc_begin.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e43b0d36-336a-4d11-8483-693ff8a264a4",
+            "Value": {
+                "id": "9fabbe5d-3e0d-4234-a501-b751e8632888",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_beings_bugs_firefly_green_light\/spr_beings_bugs_firefly_green_light.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

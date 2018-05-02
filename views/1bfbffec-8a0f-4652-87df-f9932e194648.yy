@@ -1,10 +1,10 @@
 {
-    "id": "8df1860e-cd6f-47a0-a18e-4c586706e3e7",
+    "id": "1bfbffec-8a0f-4652-87df-f9932e194648",
     "modelName": "GMFolder",
     "mvc": "1.1",
-    "name": "8df1860e-cd6f-47a0-a18e-4c586706e3e7",
+    "name": "1bfbffec-8a0f-4652-87df-f9932e194648",
     "children": [
-        "04c5c6a4-33d2-42f6-b1ed-b5de5496cef5"
+        "6eb77a3f-4c62-456a-95f9-2fecb58dbd6e"
     ],
     "filterType": "GMObject",
     "folderName": "Bugs",
