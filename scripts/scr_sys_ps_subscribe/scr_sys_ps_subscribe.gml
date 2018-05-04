@@ -37,7 +37,7 @@ if (isSubscribed == "false") {
 	ds_grid_set(global.pubsub_grid, pubsub_grid_map.event_num, gridRows, event_num)
 	ds_grid_set(global.pubsub_grid, pubsub_grid_map.instanceId, gridRows, instanceId)
 	
-	show_debug_message("Subscribed: " + string(topic) + " - " + string(subscriber) + " - " + string(event_def) + " - " + string(event_num) + " - " + string(instanceId))
+	//show_debug_message("Subscribed: " + string(topic) + " - " + string(subscriber) + " - " + string(event_def) + " - " + string(event_num) + " - " + string(instanceId))
 
 	return true
 	
