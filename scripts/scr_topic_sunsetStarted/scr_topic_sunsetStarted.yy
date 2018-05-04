@@ -1,8 +1,8 @@
 {
-    "id": "23a40dcf-5c87-4e53-a5e5-680b772cf3d4",
+    "id": "757447d2-2bbd-4dbf-bba1-965db7694104",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "src_topic_sunsetFinished",
+    "name": "scr_topic_sunsetStarted",
     "IsCompatibility": false,
     "IsDnD": false
 }

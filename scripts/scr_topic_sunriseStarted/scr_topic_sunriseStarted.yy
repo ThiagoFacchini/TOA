@@ -1,8 +1,8 @@
 {
-    "id": "ef68f3af-53bc-4097-830a-c51d92fe24dc",
+    "id": "d936186e-6f14-421e-bb15-cc1fcd9ca88d",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "src_topic_sunriseFinished",
+    "name": "scr_topic_sunriseStarted",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -338,7 +338,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/src_topic_sunsetFinished\/src_topic_sunsetFinished.yy",
+                "resourcePath": "scripts\/scr_topic_sunsetFinished\/scr_topic_sunsetFinished.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -870,7 +870,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/src_topic_sunsetStarted\/src_topic_sunsetStarted.yy",
+                "resourcePath": "scripts\/scr_topic_sunsetStarted\/scr_topic_sunsetStarted.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1611,7 +1611,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/src_topic_sunriseStarted\/src_topic_sunriseStarted.yy",
+                "resourcePath": "scripts\/scr_topic_sunriseStarted\/scr_topic_sunriseStarted.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1877,7 +1877,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/src_topic_sunriseFinished\/src_topic_sunriseFinished.yy",
+                "resourcePath": "scripts\/scr_topic_sunriseFinished\/scr_topic_sunriseFinished.yy",
                 "resourceType": "GMScript"
             }
         },

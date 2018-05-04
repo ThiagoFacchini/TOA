@@ -10,11 +10,11 @@
         "01436e38-b6e3-4a9c-a9cb-8b63c65d0cb4",
         "073f9ec8-ef4c-4526-927e-e275c60e1d57",
         "a80e5b8c-1e31-45cb-84c1-7658a1c9a386",
+        "d69d78a5-64df-408b-bfc5-07cfebd02ac4",
         "e2394111-34c9-4a4c-b26a-3b67ad52da68",
         "36e4569f-5bc9-4f4c-8501-0714158fc2fa",
         "594d28d7-f0f6-4a03-9cef-d9ca74333db7",
-        "0bb63e58-fe3a-4262-86ae-9af37247a79a",
-        "d69d78a5-64df-408b-bfc5-07cfebd02ac4"
+        "0bb63e58-fe3a-4262-86ae-9af37247a79a"
     ],
     "IsDnD": false,
     "layers": [
@@ -96,7 +96,7 @@
             "visible": true
         },
         {
-            "name": "Weather",
+            "name": "Lights_and_Particles",
             "id": "2a5f0615-78cc-4b51-97f6-815ed74e3d6f",
             "depth": 300,
             "grid_x": 32,
@@ -110,7 +110,7 @@
             "layers": [
                 {
                     "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-                    "name": "l_weather_day_night_light",
+                    "name": "l_lap_day_night_light",
                     "id": "2a074207-d0f6-4c49-84b5-c2bd628ea09b",
                     "depth": 400,
                     "grid_x": 32,
