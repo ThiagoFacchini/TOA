@@ -1,8 +1,8 @@
 {
-    "id": "6f7b57bc-a38d-4979-9401-d4d143f97850",
+    "id": "ef68f3af-53bc-4097-830a-c51d92fe24dc",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_evt_dayChange",
+    "name": "src_topic_sunriseFinished",
     "IsCompatibility": false,
     "IsDnD": false
 }

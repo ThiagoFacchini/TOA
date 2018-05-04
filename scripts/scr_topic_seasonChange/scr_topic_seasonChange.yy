@@ -1,8 +1,8 @@
 {
-    "id": "7c90ecc6-6e93-4624-aae2-ac635717e315",
+    "id": "f0fa4d0d-2f0e-456e-90ea-e51abe619541",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_evt_hourChange",
+    "name": "scr_topic_seasonChange",
     "IsCompatibility": false,
     "IsDnD": false
 }

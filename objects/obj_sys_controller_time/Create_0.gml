@@ -4,9 +4,13 @@ accumulated_delta_time = 0
 
 alarm[0] = global.tick_check_rate
 
-scr_sys_ps_subscribe(pubsub_topics.minute_change, pubsub_subscriber.script, "scr_evt_minuteChange", 0, 0)
-scr_sys_ps_subscribe(pubsub_topics.hour_change, pubsub_subscriber.script, "scr_evt_hourChange", 0, 0)
-scr_sys_ps_subscribe(pubsub_topics.day_change, pubsub_subscriber.script, "scr_evt_dayChange", 0, 0)
-scr_sys_ps_subscribe(pubsub_topics.month_change, pubsub_subscriber.script, "scr_evt_monthChange", 0, 0)
-scr_sys_ps_subscribe(pubsub_topics.year_change, pubsub_subscriber.script, "scr_evt_yearChange", 0, 0)
-scr_sys_ps_subscribe(pubsub_topics.season_change, pubsub_subscriber.script, "scr_evt_seasonChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.minute_change, pubsub_subscriber.script, "scr_topic_minuteChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.hour_change, pubsub_subscriber.script, "scr_topic_hourChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.day_change, pubsub_subscriber.script, "scr_topic_dayChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.month_change, pubsub_subscriber.script, "scr_topic_monthChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.year_change, pubsub_subscriber.script, "scr_topic_yearChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.season_change, pubsub_subscriber.script, "scr_topic_seasonChange", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.sunset_started, pubsub_subscriber.script, "scr_topic_sunsetStarted", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.sunset_finished, pubsub_subscriber.script, "scr_topic_sunsetFinished", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.sunrise_started, pubsub_subscriber.script, "scr_topic_sunriseStarted", 0, 0)
+scr_sys_ps_subscribe(pubsub_topics.sunrise_finished, pubsub_subscriber.script, "scr_topic_sunriseFinished", 0, 0)

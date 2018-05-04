@@ -324,6 +324,25 @@
             }
         },
         {
+            "Key": "23a40dcf-5c87-4e53-a5e5-680b772cf3d4",
+            "Value": {
+                "id": "e781a891-3ea8-4abe-9183-6f68a3bff8af",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/src_topic_sunsetFinished\/src_topic_sunsetFinished.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "24992f72-4c89-4127-8a1c-252f1db1ef1a",
             "Value": {
                 "id": "d1133cff-8c7f-495a-ba23-be6a218f4829",
@@ -794,7 +813,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_evt_dayChange\/scr_evt_dayChange.yy",
+                "resourcePath": "scripts\/scr_topic_dayChange\/scr_topic_dayChange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -837,6 +856,25 @@
             }
         },
         {
+            "Key": "757447d2-2bbd-4dbf-bba1-965db7694104",
+            "Value": {
+                "id": "43704da4-cd3e-4e58-9958-3acec779a1c6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/src_topic_sunsetStarted\/src_topic_sunsetStarted.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "78083a6e-5702-4ef5-a8c9-f38fd92c4d8c",
             "Value": {
                 "id": "a4d0f742-363d-4a28-a612-ea03ced780fa",
@@ -870,7 +908,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_evt_hourChange\/scr_evt_hourChange.yy",
+                "resourcePath": "scripts\/scr_topic_hourChange\/scr_topic_hourChange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1231,7 +1269,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_evt_yearChange\/scr_evt_yearChange.yy",
+                "resourcePath": "scripts\/scr_topic_yearChange\/scr_topic_yearChange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1535,7 +1573,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_evt_minuteChange\/scr_evt_minuteChange.yy",
+                "resourcePath": "scripts\/scr_topic_minuteChange\/scr_topic_minuteChange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1556,6 +1594,25 @@
                 ],
                 "resourcePath": "views\/d4be7ca8-7bfc-4efb-be7f-766e05ae13a6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d936186e-6f14-421e-bb15-cc1fcd9ca88d",
+            "Value": {
+                "id": "9c03e1d0-5c1c-49be-868a-45cb8dbf0534",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/src_topic_sunriseStarted\/src_topic_sunriseStarted.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1649,7 +1706,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_evt_monthChange\/scr_evt_monthChange.yy",
+                "resourcePath": "scripts\/scr_topic_monthChange\/scr_topic_monthChange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1806,6 +1863,25 @@
             }
         },
         {
+            "Key": "ef68f3af-53bc-4097-830a-c51d92fe24dc",
+            "Value": {
+                "id": "a5bb70c3-6a6b-454f-90de-a7886d1ab303",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/src_topic_sunriseFinished\/src_topic_sunriseFinished.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f0644b68-0a76-4b14-897b-24643eef0855",
             "Value": {
                 "id": "c8182b8b-3e68-4901-bc6c-35610d067548",
@@ -1839,7 +1915,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_evt_seasonChange\/scr_evt_seasonChange.yy",
+                "resourcePath": "scripts\/scr_topic_seasonChange\/scr_topic_seasonChange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1948,7 +2024,11 @@
         "6f7b57bc-a38d-4979-9401-d4d143f97850",
         "ddfef789-c7ff-48b8-8a3e-3987391020c1",
         "acbc6ecd-ab9d-44e1-b755-6169dcba9811",
-        "f0fa4d0d-2f0e-456e-90ea-e51abe619541"
+        "f0fa4d0d-2f0e-456e-90ea-e51abe619541",
+        "d936186e-6f14-421e-bb15-cc1fcd9ca88d",
+        "ef68f3af-53bc-4097-830a-c51d92fe24dc",
+        "757447d2-2bbd-4dbf-bba1-965db7694104",
+        "23a40dcf-5c87-4e53-a5e5-680b772cf3d4"
     ],
     "tutorial": ""
 }

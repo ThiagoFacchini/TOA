@@ -1,8 +1,8 @@
 {
-    "id": "ddfef789-c7ff-48b8-8a3e-3987391020c1",
+    "id": "d4916886-b4f9-4401-b6fa-a4c588aa4b69",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_evt_monthChange",
+    "name": "scr_topic_minuteChange",
     "IsCompatibility": false,
     "IsDnD": false
 }
