@@ -1,21 +1,19 @@
-// ------ DAY NIGHT LIGHT CYCLE BEGIN -------
-// 
-// ------------------------------------------
-
-// Get the lightIntensity for the current ingame time,
-// if lightIntensity is equals to 255 (full day) then
-// this whole process which includes day_night_light_cycle_begin and
-// day_night_light_cycle_end scripts are completely unecessary
-global.light_intensity = scr_sys_ct_dnc_getLightIntensity()
-
+// ----------------------[ DAY NIGHT LIGHT CYCLE BEGIN ]-------------------------
+// Prepare blend modes, cameras and surfaces to render to day night light cycle
+// ------------------------------------------------------------------------------
 
 // Check if the event which called this script is type draw
 // event_number check ensures that the event is only called once
-if (global.light_intensity != global.max_day_light_intensity) {
-
+if (global.day_night_cycle_is_active) {
 
 	// Prevents the code to execute during ingame Day
 	if (event_type == ev_draw) and (event_number == 0) {
+
+		// Get the lightIntensity for the current ingame time,	
+		// if lightIntensity is equals to 255 (full day) then
+		// this whole process which includes day_night_light_cycle_begin and
+		// day_night_light_cycle_end scripts are completely unecessary
+		global.light_intensity = scr_sys_ct_dnc_get_LightIntensity()
 
 		// Check if the surface 'light_surface' exists in the instance 'instance_light'
 		// of the obj_light. If not, then create.

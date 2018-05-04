@@ -1,8 +1,8 @@
 {
-    "id": "1a0fc9c0-0f42-4716-975d-f4bcdc3cfcad",
+    "id": "4a841ffc-b220-46d3-a501-40ac7250b276",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_sys_ct_dnc_getLightIntensity",
+    "name": "scr_sys_ct_dnc_activate",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -129,7 +129,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_ps_getSubscriptionRow\/scr_sys_ps_getSubscriptionRow.yy",
+                "resourcePath": "scripts\/scr_sys_ps_get_SubscriptionRow\/scr_sys_ps_get_SubscriptionRow.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -172,6 +172,25 @@
             }
         },
         {
+            "Key": "0cbe110f-162f-4a21-86d2-e78e8e41d7bf",
+            "Value": {
+                "id": "c133f3da-eb8f-4574-b632-59027aff0029",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_sys_global_day_night_cycle\/obj_sys_global_day_night_cycle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0df92618-d50d-46ac-9230-11e1ed3c5f30",
             "Value": {
                 "id": "2f6dd0ea-4f9f-4299-b926-8cea9ba50ed9",
@@ -205,7 +224,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_intl_getTranslation\/scr_sys_intl_getTranslation.yy",
+                "resourcePath": "scripts\/scr_sys_intl_get_Translation\/scr_sys_intl_get_Translation.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -243,7 +262,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_ct_dnc_getLightIntensity\/scr_sys_ct_dnc_getLightIntensity.yy",
+                "resourcePath": "scripts\/scr_sys_ct_dnc_get_LightIntensity\/scr_sys_ct_dnc_get_LightIntensity.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -457,6 +476,25 @@
             }
         },
         {
+            "Key": "4a841ffc-b220-46d3-a501-40ac7250b276",
+            "Value": {
+                "id": "ccfd5472-5f2d-4ae9-bd89-fa2a33112ee0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/scr_sys_ct_dnc_activate\/scr_sys_ct_dnc_activate.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4b702466-9029-4636-a659-10f53c63d653",
             "Value": {
                 "id": "ff96ec65-be44-487f-a4d3-87b64eccb7b3",
@@ -471,7 +509,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_math_getMappedRange\/scr_sys_math_getMappedRange.yy",
+                "resourcePath": "scripts\/scr_sys_math_get_MappedRange\/scr_sys_math_get_MappedRange.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -585,7 +623,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_ct_dnc_end\/scr_sys_ct_dnc_end.yy",
+                "resourcePath": "scripts\/scr_sys_ct_dnc_layer_end\/scr_sys_ct_dnc_layer_end.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -794,7 +832,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_intl_getLanguageFile\/scr_sys_intl_getLanguageFile.yy",
+                "resourcePath": "scripts\/scr_sys_intl_get_LanguageFile\/scr_sys_intl_get_LanguageFile.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -833,6 +871,25 @@
                     "default"
                 ],
                 "resourcePath": "scripts\/scr_evt_hourChange\/scr_evt_hourChange.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7cebaaba-1bca-46f6-9c83-2faa4d290016",
+            "Value": {
+                "id": "faa45e4f-a2bb-4092-a329-c739fbf6c219",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "scripts\/src_sys_ct_dnc_deactivate\/src_sys_ct_dnc_deactivate.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1402,7 +1459,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_intl_getLanguage\/scr_sys_intl_getLanguage.yy",
+                "resourcePath": "scripts\/scr_sys_intl_get_Language\/scr_sys_intl_get_Language.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1573,7 +1630,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_ct_tm_getDateTime\/scr_sys_ct_tm_getDateTime.yy",
+                "resourcePath": "scripts\/scr_sys_ct_tm_get_DateTime\/scr_sys_ct_tm_get_DateTime.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1687,7 +1744,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "scripts\/scr_sys_ct_dnc_begin\/scr_sys_ct_dnc_begin.yy",
+                "resourcePath": "scripts\/scr_sys_ct_dnc_layer_begin\/scr_sys_ct_dnc_layer_begin.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -1874,6 +1931,8 @@
         "e32c96f4-317a-472c-9c27-634df9ff8ff6",
         "5e65fe32-acd4-405c-91cc-ded39b3c2ec1",
         "1a0fc9c0-0f42-4716-975d-f4bcdc3cfcad",
+        "4a841ffc-b220-46d3-a501-40ac7250b276",
+        "7cebaaba-1bca-46f6-9c83-2faa4d290016",
         "9eda8270-e848-431d-9ebb-e29cdea5225e",
         "cf2f6383-1d8e-4534-818c-4a7469dbcd88",
         "de99ddd5-cba6-472c-a4e1-3220f3000b9b",

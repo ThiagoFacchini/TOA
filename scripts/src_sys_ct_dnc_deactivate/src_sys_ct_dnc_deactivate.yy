@@ -1,8 +1,8 @@
 {
-    "id": "4b702466-9029-4636-a659-10f53c63d653",
+    "id": "7cebaaba-1bca-46f6-9c83-2faa4d290016",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_sys_math_getMappedRange",
+    "name": "src_sys_ct_dnc_deactivate",
     "IsCompatibility": false,
     "IsDnD": false
 }

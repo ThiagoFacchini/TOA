@@ -9,4 +9,4 @@
 // ------------------------------------------------------------------------------
 
 // @TODO - Add all possible outputs to a event logger
-return scr_sys_intl_getTranslation(global.intl_main_section, "langName")
+return scr_sys_intl_get_Translation(global.intl_main_section, "langName")

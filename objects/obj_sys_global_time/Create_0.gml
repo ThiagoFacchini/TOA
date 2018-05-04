@@ -4,7 +4,7 @@
 // -----------------------------------------[ TIME CONTROL ]-----------------------------------------
 
 global.ticks						= 1055				// Initial ticks value
-global.ticks_ms						= 100				// How many milliseconds a tick represent
+global.ticks_ms						= 10				// How many milliseconds a tick represent
 global.tick_check_rate				= 1					// How often (gameLoops) the time controller should run
 
 global.ticks_to_year				= 518400			// How many ticks represent a year

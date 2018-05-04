@@ -27,10 +27,10 @@ if (timeGiven[0] < 10) {
 
 if (timeGiven[1] > 12) {
 	partialHour = timeGiven[1] - 12
-	label_ampm = scr_sys_intl_getTranslation(global.intl_time_section, "pm")
+	label_ampm = scr_sys_intl_get_Translation(global.intl_time_section, "pm")
 } else {
 	partialHour = timeGiven[1]
-	label_ampm = scr_sys_intl_getTranslation(global.intl_time_section, "am")
+	label_ampm = scr_sys_intl_get_Translation(global.intl_time_section, "am")
 }
 
 if (partialHour < 10) {

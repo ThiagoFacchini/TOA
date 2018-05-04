@@ -13,7 +13,7 @@
 
 var section				= string(argument0)
 var stringToTranslate	= string(argument1)
-var languageFile		= scr_sys_intl_getLanguageFile()
+var languageFile		= scr_sys_intl_get_LanguageFile()
 
 ini_open(global.intl_directory + "/" + languageFile)
 

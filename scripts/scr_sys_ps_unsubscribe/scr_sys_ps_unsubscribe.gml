@@ -20,7 +20,7 @@ var event_def	= argument2
 var event_num	= argument3
 var instanceId	= argument4
 
-var subscriptionRow = scr_sys_ps_getSubscriptionRow(topic, subscriber, event_def, event_num, instanceId)
+var subscriptionRow = scr_sys_ps_get_SubscriptionRow(topic, subscriber, event_def, event_num, instanceId)
 
 if (subscriptionRow != "false") {
 	

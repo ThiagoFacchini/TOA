@@ -3,11 +3,11 @@
 if (accumulated_delta_time >= global.ticks_ms) {
 	accumulated_delta_time = 0
 	
-	var old_dateTime = scr_sys_ct_tm_getDateTime()
+	var old_dateTime = scr_sys_ct_tm_get_DateTime()
 	
 	scr_sys_ct_tm_increment()
 	
-	var curr_dateTime = scr_sys_ct_tm_getDateTime()
+	var curr_dateTime = scr_sys_ct_tm_get_DateTime()
 	
 	// Checking for minute change event
 	if (old_dateTime[0] != curr_dateTime[0]) {

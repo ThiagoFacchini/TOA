@@ -1,8 +1,8 @@
 {
-    "id": "0696748d-e4ff-49c9-8fa1-e05b9875b1bd",
+    "id": "4b702466-9029-4636-a659-10f53c63d653",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_sys_ps_getSubscriptionRow",
+    "name": "scr_sys_math_get_MappedRange",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -1,6 +1,11 @@
+// -----------------------[ DAY NIGHT LIGHT CYCLE END ]--------------------------
+// Render the Day night Cyle with all blendings previously defined
+// ------------------------------------------------------------------------------
+
+
 // Check if the event which called this script is type draw
 // event_number check ensures that the event is only called once
-if (global.light_intensity != global.max_day_light_intensity) {		
+if (global.day_night_cycle_is_active) {		
 
 
 	// Prevents the code to execute during ingame Day

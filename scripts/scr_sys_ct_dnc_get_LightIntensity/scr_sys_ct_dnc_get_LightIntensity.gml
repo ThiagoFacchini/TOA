@@ -5,7 +5,7 @@
 
 
 // Retrieving the current ingame time
-var gameTime	= scr_sys_ct_tm_getDateTime()
+var gameTime	= scr_sys_ct_tm_get_DateTime()
 var gameMinute	= gameTime[0]
 var gameHour	= gameTime[1]
 var lightIntensity = 0
@@ -28,9 +28,9 @@ if (gameHour >= sunsetStart) and (gameHour < sunsetEnd) {
 	// Returns a value within a range that corresponds to ingame current hour
 	// sunsetEnd & sunsetLength decrements by -1 because a possible 0 as result matters
 	// to the light intensity.
-	hourTransition = scr_sys_math_getMappedRange( gameHour, sunsetStart, (sunsetEnd -1), 0, (global.sunset_length -1))
+	hourTransition = scr_sys_math_get_MappedRange( gameHour, sunsetStart, (sunsetEnd -1), 0, (global.sunset_length -1))
 	// Returns a value within a range that corresponds to ingame current minutes
-	minuteTransition = scr_sys_math_getMappedRange( gameMinute, 0, 60 ,0 ,9)
+	minuteTransition = scr_sys_math_get_MappedRange( gameMinute, 0, 60 ,0 ,9)
 
 		
 	// Concatenate hour + minutes so the light transition gets smoother
@@ -39,7 +39,7 @@ if (gameHour >= sunsetStart) and (gameHour < sunsetEnd) {
 	// Returns a value within a range that corresponds to ingame current hour:minute
 	// the length is multiplied by 10, because of the concatenation and decremented by -1 because a possible
 	// 0 as result matters to the light intensity.
-	lightIntensity = scr_sys_math_getMappedRange( timeTransition, 0, ((global.sunset_length * 10) - 1), global.max_day_light_intensity, global.max_night_light_intensity )
+	lightIntensity = scr_sys_math_get_MappedRange( timeTransition, 0, ((global.sunset_length * 10) - 1), global.max_day_light_intensity, global.max_night_light_intensity )
 	
 
 // Check if ingame time is between end of sunset and begining of the sunrise
@@ -60,9 +60,9 @@ if (gameHour >= sunsetStart) and (gameHour < sunsetEnd) {
 	// Returns a value within a range that corresponds to ingame current hour
 	// sunriseEnd & sunriseLength decrements by -1 because a possible 0 as result matters
 	// to the light intensity.
-	hourTransition = scr_sys_math_getMappedRange( gameHour, sunriseStart, (sunriseEnd -1), (global.sunrise_length -1), 0)
+	hourTransition = scr_sys_math_get_MappedRange( gameHour, sunriseStart, (sunriseEnd -1), (global.sunrise_length -1), 0)
 	// Returns a value within a range that corresponds to ingame current minutes
-	minuteTransition = scr_sys_math_getMappedRange( gameMinute, 0, 60 ,9 ,0)
+	minuteTransition = scr_sys_math_get_MappedRange( gameMinute, 0, 60 ,9 ,0)
 		
 	// Concatenate hour + minutes so the light transition gets smoother
 	timeTransition = floor(real(string(round(hourTransition)) + string(round(minuteTransition))))
@@ -71,7 +71,7 @@ if (gameHour >= sunsetStart) and (gameHour < sunsetEnd) {
 	// Returns a value within a range that corresponds to ingame current hour:minute
 	// the length is multiplied by 10, because of the concatenation and decremented by -1 because a possible
 	// 0 as result matters to the light intensity.		
-	lightIntensity = scr_sys_math_getMappedRange( timeTransition, 0, ((global.sunset_length * 10) - 1), global.max_day_light_intensity, global.max_night_light_intensity )
+	lightIntensity = scr_sys_math_get_MappedRange( timeTransition, 0, ((global.sunset_length * 10) - 1), global.max_day_light_intensity, global.max_night_light_intensity )
 	
 // Day light!
 } else {

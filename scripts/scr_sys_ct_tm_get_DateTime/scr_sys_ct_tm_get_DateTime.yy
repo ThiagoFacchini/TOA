@@ -1,8 +1,8 @@
 {
-    "id": "c97322a3-97b5-4ee7-acb5-84f730e8abc0",
+    "id": "dcebee6b-eb65-4553-9c84-016727931096",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "scr_sys_intl_getLanguage",
+    "name": "scr_sys_ct_tm_get_DateTime",
     "IsCompatibility": false,
     "IsDnD": false
 }
