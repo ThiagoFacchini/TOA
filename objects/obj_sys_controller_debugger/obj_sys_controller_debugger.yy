@@ -2,7 +2,7 @@
     "id": "e9ffff6e-9b7e-4fa9-8c64-07ed6bf97a92",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_sys_controller_debug",
+    "name": "obj_sys_controller_debugger",
     "eventList": [
         {
             "id": "27c15537-492c-41e8-b368-6abc08bc411b",

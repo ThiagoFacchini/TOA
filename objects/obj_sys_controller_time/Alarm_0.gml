@@ -22,6 +22,12 @@ if (accumulated_delta_time >= global.ticks_ms) {
 	// Checking for day change event
 	if (old_dateTime[2] != curr_dateTime[2]) {
 		scr_sys_ps_publish(pubsub_topics.day_change, curr_dateTime)
+		
+		// Reseting alarms that occur every day
+		sunset_started_alarm	= false
+		sunset_finished_alarm	= false
+		sunrise_started_alarm	= false
+		sunrise_finished_alarm	= false
 	}
 	
 	// Checking for month change event
@@ -40,22 +46,26 @@ if (accumulated_delta_time >= global.ticks_ms) {
 	}
 	
 	// Checking for sunset start event
-	if (curr_dateTime[1] == global.sunset_time) {
+	if (curr_dateTime[1] == global.sunset_time) and (sunset_started_alarm == false) {
+		sunset_started_alarm = true
 		scr_sys_ps_publish(pubsub_topics.sunset_started, curr_dateTime)
 	}
 	
 	// Checking for sunset finish event
-	if (curr_dateTime[1] == (global.sunset_time + global.sunset_length)) {
+	if (curr_dateTime[1] == (global.sunset_time + global.sunset_length)) and (sunset_finished_alarm == false) {
+		sunset_finished_alarm = true
 		scr_sys_ps_publish(pubsub_topics.sunset_finished, curr_dateTime)
 	}
 	
 	// Checking for sunrise start event
-	if (curr_dateTime[1] == global.sunrise_time) {
+	if (curr_dateTime[1] == global.sunrise_time) and (sunrise_started_alarm == false) {
+		sunrise_started_alarm = true
 		scr_sys_ps_publish(pubsub_topics.sunrise_started, curr_dateTime)
 	}
 	
 	// Checking for sunrise finish event
-	if (curr_dateTime[1] == (global.sunrise_time + global.sunrise_length)) {
+	if (curr_dateTime[1] == (global.sunrise_time + global.sunrise_length)) and (sunrise_finished_alarm == false) {
+		sunrise_finished_alarm = true
 		scr_sys_ps_publish(pubsub_topics.sunrise_finished, curr_dateTime)
 	}
 	

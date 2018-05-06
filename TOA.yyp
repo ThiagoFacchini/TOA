@@ -1407,6 +1407,25 @@
             }
         },
         {
+            "Key": "b6f34a11-ac9a-4476-beb2-3fd14c8df989",
+            "Value": {
+                "id": "025f5397-a829-4a76-a42b-c05daf0b4ef6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/spr_beings_bugs_firefly_green_idle\/spr_beings_bugs_firefly_green_idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b8ad30b7-eb8d-4cf7-987e-33f2587fecb8",
             "Value": {
                 "id": "da35ef2d-e642-4c60-a4c0-e17d9a76521a",
@@ -1442,6 +1461,25 @@
                 ],
                 "resourcePath": "views\/bc001ce9-7f15-4fee-8256-9aeaaae8d6a5.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c1015fb2-c4ae-4489-a1be-80f7e4c38175",
+            "Value": {
+                "id": "d01d8cef-29c8-4412-a51a-46102d4c14c9",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_sys_global_debugger\/obj_sys_global_debugger.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1806,6 +1844,25 @@
             }
         },
         {
+            "Key": "e381684d-c120-4044-986d-5bd335e25793",
+            "Value": {
+                "id": "33700cac-b74f-4ba1-a7b3-bfe1d7947d09",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_sys_global_beings\/obj_sys_global_beings.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e43b0d36-336a-4d11-8483-693ff8a264a4",
             "Value": {
                 "id": "9fabbe5d-3e0d-4234-a501-b751e8632888",
@@ -1858,7 +1915,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "objects\/obj_sys_controller_debug\/obj_sys_controller_debug.yy",
+                "resourcePath": "objects\/obj_sys_controller_debugger\/obj_sys_controller_debugger.yy",
                 "resourceType": "GMObject"
             }
         },

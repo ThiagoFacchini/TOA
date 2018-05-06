@@ -1,6 +1,6 @@
 /// @description Draw the Debug Window
 
-if (isVisible) {
+if (global.inspector_mode) {
 	draw_set_alpha(0.5)
 	draw_set_color(c_black)
 	draw_rectangle(0,0, 300, 768, false)
@@ -31,4 +31,7 @@ if (isVisible) {
 
 	draw_text(10, 210, "Light Intensity:")
 	draw_text(20, 230, string(global.light_intensity))
+	
+	draw_text(10, 260, "FPS:")
+	draw_text(20, 280, string(fps))
 }

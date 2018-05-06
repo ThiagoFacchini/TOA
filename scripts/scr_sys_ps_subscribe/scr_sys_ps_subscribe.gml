@@ -6,7 +6,7 @@
 //		argument1 = subscriber type
 //		argument2 = event type
 //		argument3 = event num (only for user events)
-//		argument4 = instanceID ( case subscriber type = instance
+//		argument4 = instanceID ( case subscriber type = instance )
 //
 // RETURNS: 
 //		boolean

@@ -4,6 +4,11 @@ accumulated_delta_time = 0
 
 alarm[0] = global.tick_check_rate
 
+sunset_started_alarm = false
+sunset_finished_alarm = false
+sunrise_started_alarm = false
+sunrise_started_alarm = false
+
 scr_sys_ps_subscribe(pubsub_topics.minute_change, pubsub_subscriber.script, "scr_topic_minuteChange", 0, 0)
 scr_sys_ps_subscribe(pubsub_topics.hour_change, pubsub_subscriber.script, "scr_topic_hourChange", 0, 0)
 scr_sys_ps_subscribe(pubsub_topics.day_change, pubsub_subscriber.script, "scr_topic_dayChange", 0, 0)
